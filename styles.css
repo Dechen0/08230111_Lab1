@@ -1,0 +1,145 @@
+body{
+    font-family: 'Open Sans';
+    background-color: #fff;
+    color: #333;
+}
+
+.topbar{
+    background: #5888b9;
+    color: #fff;
+    padding: 0.1em;
+    width: 100%;
+}
+
+.logo{
+    height: 15vh;
+    margin-top: -3em;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+}
+
+.nav-links li a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.main-nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    padding: 1em 4em 1em 2em;
+}
+
+.nav-secton{
+    text-align: center;
+    padding: 1em;
+}
+
+.nav-section a{
+    display: block;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-sectin p{
+    font-size: 0.75em;
+    color: #555;
+}
+
+.btn-red{
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 1em 2em;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.banner{
+    background-color: #1565c0;
+    color: white;
+    text-align: center;
+    padding: 0.5em;
+    font-weight: bold;
+}
+
+.main-content{
+    display: flex;
+    padding: 1em 10%;
+    gap: 5em;
+}
+.video-container{
+     flex: 1 1 45%;
+}
+
+.greetings{
+     flex: 1 1 45%;
+}
+
+.greetings p{
+    text-align: justify;
+}
+
+footer {
+  background-color: #000;
+  color: white;
+  text-align:left;
+  padding: 15px;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+/*Programmes css*/
+.page-banner {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 3em 10%;   /* 10% left/right space like SCE site */
+}
+.page-banner h1 {
+    display: inline-block;
+    border-left: 3px solid red;
+    padding-left: 20px;
+    font-size: 2.5em;   /* make heading large like screenshot */
+    font-weight: bold;
+    margin: 0;          /* remove default margin */
+}
+
+/* Breadcrumb */
+.breadcrumb {
+    font-size: 0.9em;
+    color: #555;
+    margin: 1em 10%;       /* same side margin as banner */
+    padding: 0.5em 0;      /* small vertical spacing */
+}
+
+/* Programmes section */
+.programmes-content {
+    padding: 2em 10%;
+}
+
+.programmes-content h2 {
+    margin-top: 2em;
+    font-weight: bold;
+    color: #000;
+}
+
+.programmes-content ul {
+    list-style: disc;
+    margin-left: 2em;
+    line-height: 1.6;
+}
+footer {
+  background-color: #000;
+  color: white;
+  text-align:left;
+  padding: 15px;
+  margin-top: 20px;
+  font-size: 14px;
+}
